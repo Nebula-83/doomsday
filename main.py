@@ -1,5 +1,5 @@
 #day from date
-
+from colorama import Fore
 def check_day (d,m,y):
     
     if m not in range(1,13):
@@ -25,7 +25,7 @@ def check_day (d,m,y):
         a=(d-dm)%7
         c=w[(Dy+a)%7]
     month={1:'jan',2:'feb',3:'mar',4:'apr',5:'may',6:'jun',7:'july',8:'aug',9:'sep',10:'oct',11:'nov',12:'dec'}
-    from colorama import Fore
+    
     k=f'''
     Date:{d}
     Month:{month[m]}
